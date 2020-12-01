@@ -16,6 +16,10 @@ body {
   font-family: 'Public Sans', sans-serif;
 }
 
+a, a:visited, a:hover {
+  text-decoration: none;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
