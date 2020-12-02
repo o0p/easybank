@@ -45,6 +45,12 @@ a, a:visited, a:hover {
   justify-items: center;
 }
 
+button, .button {
+  padding: 1rem 1.875rem;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
 .header nav {
   padding: 24px;
 }
