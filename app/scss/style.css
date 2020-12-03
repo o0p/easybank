@@ -88,6 +88,10 @@ a, a:visited, a:hover {
   color: #9698a6;
 }
 
+.header__links a:not(:last-child) {
+  margin-right: 32px;
+}
+
 .header__cta {
   font-size: 0.875rem;
   color: #fff;
