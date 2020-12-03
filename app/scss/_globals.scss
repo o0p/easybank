@@ -39,7 +39,6 @@ a, a:visited, a:hover {
 }
 
 //buttons
-
 .button {
     background: linear-gradient(to right, $limeGreen, $brightCyan);
     padding: 1rem 1.875rem;
@@ -50,3 +49,18 @@ a, a:visited, a:hover {
     font-weight: 400;
 }
 
+//visibility
+
+.hide-for-mobile {
+    //hide for tablets and mobile
+    @include breakpoint-down(medium){
+        display: none;
+    }
+}
+
+.hide-for-desktop {
+    //hide for desktop
+    @include breakpoint-up(large) {
+        display: none;
+    }
+}
