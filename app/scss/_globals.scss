@@ -19,6 +19,7 @@ body {
 
 a, a:visited, a:hover {
     text-decoration: none;
+    
 }
 
 // flexbox
@@ -34,17 +35,17 @@ a, a:visited, a:hover {
     }
 
     &-ai-c {
-        justify-items: center;
+        align-items: center;
     }
 }
 
 //buttons
-.button {
+button, .button {
     background: linear-gradient(to right, $limeGreen, $brightCyan);
     padding: 0.875rem 2.1875rem;
     border-radius: 50px;
     cursor: pointer;
-    border: none;
+    border: 0;
     color: #fff;
     font-weight: 400;
 }

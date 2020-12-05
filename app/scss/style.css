@@ -42,16 +42,18 @@ a, a:visited, a:hover {
 }
 
 .flex-ai-c {
-  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.button {
+button, .button {
   background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
   background: linear-gradient(to right, #31d35c, #2bb7da);
   padding: 0.875rem 2.1875rem;
   border-radius: 50px;
   cursor: pointer;
-  border: none;
+  border: 0;
   color: #fff;
   font-weight: 400;
 }
