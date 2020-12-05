@@ -28,12 +28,12 @@
     }
 
     &__links {   
-            
+
         a {
             position: relative;
             font-size: $font-sm;  
             color: $grayishBlue;
-            transition: color 200ms ease-in-out;
+            transition: color 300ms ease-in-out;
 
 
           &:not(:last-child) {
@@ -50,7 +50,7 @@
               position: absolute;
               background: linear-gradient(to right, $limeGreen, $brightCyan);
               opacity: 0;
-              transition: opacity 200ms ease-in-out;
+              transition: opacity 300ms ease-in-out;
           }
           
           &:hover {
@@ -66,6 +66,12 @@
     &__cta {
         font-size: $font-sm;
         color: #fff;
+        transition: opacity 150ms ease-in-out;
+        
+
+        &:hover {
+            opacity: .75;
+        }
     }
 
 }
