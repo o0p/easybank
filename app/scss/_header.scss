@@ -27,9 +27,9 @@
         }
     }
 
-    &__links {
-        
+    &__links {        
         border: 1px solid red;
+        
         a {
             position: relative;
             font-size: $font-sm;  
@@ -40,6 +40,7 @@
           &:not(:last-child) {
               margin-right: 32px;
           }
+
           &::before {
               content: '';
               display: block;
@@ -50,6 +51,7 @@
               bottom: -30px;
               position: absolute;
           }
+          
           &:hover {
               color: $darkBlue;
           }
