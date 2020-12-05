@@ -90,10 +90,6 @@ button, .button {
   margin-bottom: 3px;
 }
 
-.header__links {
-  border: 1px solid red;
-}
-
 .header__links a {
   position: relative;
   font-size: 0.875rem;
@@ -110,15 +106,23 @@ button, .button {
   content: '';
   display: block;
   height: 5px;
-  background: lime;
   left: 0;
   right: 0;
   bottom: -30px;
   position: absolute;
+  background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background: linear-gradient(to right, #31d35c, #2bb7da);
+  opacity: 0;
+  -webkit-transition: opacity 200ms ease-in-out;
+  transition: opacity 200ms ease-in-out;
 }
 
 .header__links a:hover {
   color: #2d314d;
+}
+
+.header__links a:hover::before {
+  opacity: 1;
 }
 
 .header__cta {

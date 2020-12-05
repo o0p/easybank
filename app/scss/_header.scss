@@ -27,9 +27,8 @@
         }
     }
 
-    &__links {        
-        border: 1px solid red;
-        
+    &__links {   
+            
         a {
             position: relative;
             font-size: $font-sm;  
@@ -44,16 +43,22 @@
           &::before {
               content: '';
               display: block;
-              height: 5px;
-              background: lime;
+              height: 5px; 
               left: 0;
               right: 0;
               bottom: -30px;
               position: absolute;
+              background: linear-gradient(to right, $limeGreen, $brightCyan);
+              opacity: 0;
+              transition: opacity 200ms ease-in-out;
           }
           
           &:hover {
               color: $darkBlue;
+              
+              &::before {
+                opacity: 1;
+              }
           }
         }
     }
