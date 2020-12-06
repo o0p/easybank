@@ -70,18 +70,28 @@ button, .button {
   }
 }
 
-.header.open .header-menu > span:first-child {
+.header.open .header__menu > span:first-child {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
 
-.header.open .header-menu > span:nth-child(2) {
+.header.open .header__menu > span:nth-child(2) {
   opacity: 0;
 }
 
-.header.open .header-menu > span:last-child {
+.header.open .header__menu > span:last-child {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
+}
+
+.header .overlay {
+  position: fixed;
+  top: 3.75rem;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2d314d), to(transparent));
+  background-image: linear-gradient(#2d314d, transparent);
 }
 
 .header nav {
@@ -106,16 +116,6 @@ button, .button {
 
 .header__menu > span:not(:last-child) {
   margin-bottom: 5px;
-}
-
-.header .overlay {
-  position: fixed;
-  top: 3.75rem;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#2d314d), to(transparent));
-  background-image: linear-gradient(#2d314d, transparent);
 }
 
 .header__links a {

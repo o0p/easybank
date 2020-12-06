@@ -4,7 +4,7 @@
 
     &.open {
 
-        .header-menu {
+        .header__menu {
             > span:first-child {
                 transform: rotate(45deg);
             }
@@ -20,6 +20,15 @@
 
     }
 
+    .overlay {
+        position: fixed;
+        top: 3.75rem;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-image: linear-gradient($darkBlue, transparent);
+    }
+    
     nav {
 
         padding: 1.0625rem 1.5rem;
@@ -51,14 +60,7 @@
 
     }
 
-    .overlay {
-        position: fixed;
-        top: 3.75rem;
-        right: 0px;
-        bottom: 0px;
-        left: 0px;
-        background-image: linear-gradient($darkBlue, transparent);
-    }
+
     
 
     &__links {   
