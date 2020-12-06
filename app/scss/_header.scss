@@ -21,7 +21,7 @@
             height: 2px;
             background-color: $darkBlue;
             transition: all 300ms ease-in-out;
-            transform-origin: left center;
+            transform-origin: 3px 1px;
 
             &:not(:last-child) {
                 margin-bottom:5px ;
@@ -92,4 +92,13 @@
         }
     }
 
+}
+
+.overlay {
+    position: fixed;
+    top: 3.75rem;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: linear-gradient($darkBlue, transparent);
 }
