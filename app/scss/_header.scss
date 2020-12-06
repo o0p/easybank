@@ -17,7 +17,6 @@
                 transform: rotate(-45deg);
             }
         }
-
     }
 
     .overlay {
@@ -56,12 +55,7 @@
                 margin-bottom:5px ;
             }
         }
-
-
-    }
-
-
-    
+    }        
 
     &__links {   
 
@@ -70,7 +64,6 @@
             font-size: $font-sm;  
             color: $grayishBlue;
             transition: color 300ms ease-in-out;
-
 
           &:not(:last-child) {
               margin-right: 32px;
@@ -104,12 +97,10 @@
         color: #fff;
         transition: opacity 150ms ease-in-out;
         
-
         &:hover {
             opacity: .75;
         }
     }
-
 }
 
 
