@@ -57,7 +57,17 @@
                 margin-bottom:5px ;
             }
         }
-    }        
+    }
+
+    &__menu {
+        background: #fff;
+         a {
+             display: block;
+             color: $darkBlue;
+             padding: .625rem;
+             text-align: center;
+         }
+    }
 
     &__links {   
 
