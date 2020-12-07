@@ -91,6 +91,11 @@ a, a:visited, a:hover {
   text-decoration: none;
 }
 
+.container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -164,7 +169,8 @@ button, .button {
 }
 
 .header nav {
-  padding: 1.0625rem 1.5rem;
+  padding-top: 1.0625rem;
+  padding-bottom: 1.0625rem;
 }
 
 .header__logo img {
@@ -189,6 +195,8 @@ button, .button {
 
 .header__menu {
   background: #fff;
+  margin: 0px 1.5rem;
+  border-radius: 3px;
 }
 
 .header__menu a {
