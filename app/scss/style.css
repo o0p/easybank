@@ -195,6 +195,7 @@ button, .button {
 
 .header__menu {
   background: #fff;
+  margin: 0px 1.5rem;
 }
 
 .header__menu a {
