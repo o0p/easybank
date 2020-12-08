@@ -203,7 +203,7 @@ button, .button {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   background: #fff;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 .header__menu a {
