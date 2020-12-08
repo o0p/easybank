@@ -64,6 +64,8 @@ button, .button {
     //hide for tablets and mobile
     @include breakpoint-down(medium){
         display: none;
+        position: relative;
+        z-index: 1;
     }
 }
 
