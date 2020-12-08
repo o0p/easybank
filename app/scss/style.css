@@ -33,8 +33,8 @@
 }
 
 .fade-in {
-  -webkit-animation: fade-in 420ms ease-in-out forwards;
-          animation: fade-in 420ms ease-in-out forwards;
+  -webkit-animation: fade-in 320ms ease-in-out forwards;
+          animation: fade-in 320ms ease-in-out forwards;
 }
 
 @-webkit-keyframes fade-out {
@@ -68,8 +68,8 @@
 }
 
 .fade-out {
-  -webkit-animation: fade-out 420ms ease-in-out forwards;
-          animation: fade-out 420ms ease-in-out forwards;
+  -webkit-animation: fade-out 320ms ease-in-out forwards;
+          animation: fade-out 320ms ease-in-out forwards;
 }
 
 html {
