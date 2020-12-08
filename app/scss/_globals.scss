@@ -14,7 +14,11 @@ body {
     font-size: $font-med;
     font-weight: 300;
     color: $grayishBlue;
-    font-family: 'Public Sans', sans-serif;    
+    font-family: 'Public Sans', sans-serif;
+
+    &.noscroll {
+        overflow: hidden;
+    }
 }
 
 a, a:visited, a:hover {
