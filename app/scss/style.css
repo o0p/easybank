@@ -1,3 +1,7 @@
+.has-fade {
+  visibility: hidden;
+}
+
 @-webkit-keyframes fade-in {
   from {
     visibility: hidden;
@@ -8,6 +12,7 @@
     opacity: 0;
   }
   to {
+    visibility: visible;
     opacity: 1;
   }
 }
@@ -22,13 +27,14 @@
     opacity: 0;
   }
   to {
+    visibility: visible;
     opacity: 1;
   }
 }
 
 .fade-in {
-  -webkit-animation: fade-in 420ms ease-in-out forwards;
-          animation: fade-in 420ms ease-in-out forwards;
+  -webkit-animation: fade-in 320ms ease-in-out forwards;
+          animation: fade-in 320ms ease-in-out forwards;
 }
 
 @-webkit-keyframes fade-out {
@@ -62,8 +68,8 @@
 }
 
 .fade-out {
-  -webkit-animation: fade-out 420ms ease-in-out forwards;
-          animation: fade-out 420ms ease-in-out forwards;
+  -webkit-animation: fade-out 320ms ease-in-out forwards;
+          animation: fade-out 320ms ease-in-out forwards;
 }
 
 html {
@@ -85,6 +91,10 @@ body {
   font-weight: 300;
   color: #9698a6;
   font-family: 'Public Sans', sans-serif;
+}
+
+body.noscroll {
+  overflow: hidden;
 }
 
 a, a:visited, a:hover {
@@ -162,7 +172,7 @@ button, .button {
 .header .overlay {
   opacity: 0;
   position: fixed;
-  top: 3.75rem;
+  top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
@@ -171,6 +181,8 @@ button, .button {
 }
 
 .header nav {
+  position: relative;
+  background-color: #fff;
   padding-top: 1.0625rem;
   padding-bottom: 1.0625rem;
 }
@@ -199,10 +211,11 @@ button, .button {
   position: absolute;
   width: calc(100% - 3rem);
   left: 50%;
+  margin-top: 1.5rem;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   background: #fff;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 .header__menu a {

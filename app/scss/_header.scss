@@ -22,7 +22,7 @@
     .overlay {
         opacity: 0;
         position: fixed;
-        top: 3.75rem;
+        top: 0px;
         right: 0px;
         bottom: 0px;
         left: 0px;
@@ -31,6 +31,8 @@
     }
     
     nav {
+        position: relative;
+        background-color: #fff;
         padding-top: 1.0625rem;
         padding-bottom: 1.0625rem;
     }
@@ -63,9 +65,10 @@
         position: absolute;
         width: calc(100% - 3rem);
         left: 50%;
+        margin-top: 1.5rem;
         transform: translateX(-50%);
         background: #fff;
-        border-radius: 3px;
+        border-radius: 5px;
          a {
              display: block;
              color: $darkBlue;
