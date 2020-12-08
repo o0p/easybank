@@ -134,6 +134,8 @@ button, .button {
 @media (max-width: 63.9375em) {
   .hide-for-mobile {
     display: none;
+    position: relative;
+    z-index: 1;
   }
 }
 
@@ -194,8 +196,12 @@ button, .button {
 }
 
 .header__menu {
+  position: absolute;
+  width: calc(100% - 3rem);
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   background: #fff;
-  margin: 0px 1.5rem;
   border-radius: 3px;
 }
 

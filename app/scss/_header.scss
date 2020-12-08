@@ -60,8 +60,11 @@
     }
 
     &__menu {
+        position: absolute;
+        width: calc(100% - 3rem);
+        left: 50%;
+        transform: translateX(-50%);
         background: #fff;
-        margin: 0px 1.5rem;
         border-radius: 3px;
          a {
              display: block;
