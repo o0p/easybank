@@ -272,6 +272,7 @@ button, .button {
 }
 
 .hero__image {
+  position: relative;
   background-image: url(/images/bg-intro-mobile.svg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -282,9 +283,11 @@ button, .button {
 .hero__image::before {
   content: '';
   position: absolute;
+  height: 100%;
+  width: 100%;
   background-image: url(/images/image-mockups.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center bottom;
 }
 /*# sourceMappingURL=style.css.map */
