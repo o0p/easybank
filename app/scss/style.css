@@ -278,4 +278,8 @@ button, .button {
   background-position: center center;
   min-height: 17.5rem;
 }
+
+.hero__image::before {
+  background-image: url(/images/image-mockups.png);
+}
 /*# sourceMappingURL=style.css.map */

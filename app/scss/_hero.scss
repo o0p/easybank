@@ -5,6 +5,11 @@
         background-repeat: no-repeat;
         background-position: center center;
         min-height: 17.5rem;
+
+
+        &::before {
+            background-image: url(/images/image-mockups.png);
+        }
     }
 
     &__text {
