@@ -281,5 +281,8 @@ button, .button {
 
 .hero__image::before {
   background-image: url(/images/image-mockups.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 /*# sourceMappingURL=style.css.map */
