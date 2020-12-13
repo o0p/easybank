@@ -97,13 +97,19 @@ body.noscroll {
   overflow: hidden;
 }
 
+h1, h2, h3 {
+  margin-top: 0;
+}
+
 a, a:visited, a:hover {
   text-decoration: none;
 }
 
 .container {
-  padding-left: 1.5rem;
+  padding-top: 2.25rem;
   padding-right: 1.5rem;
+  padding-bottom: 2.25rem;
+  padding-left: 1.5rem;
 }
 
 .flex {
@@ -139,6 +145,14 @@ button, .button {
   border: 0;
   color: #fff;
   font-weight: 400;
+  display: inline-block;
+  font-size: 0.875rem;
+  -webkit-transition: opacity 150ms ease-in-out;
+  transition: opacity 150ms ease-in-out;
+}
+
+button:hover, .button:hover {
+  opacity: .75;
 }
 
 @media (max-width: 63.9375em) {
@@ -260,17 +274,6 @@ button, .button {
   opacity: 1;
 }
 
-.header__cta {
-  font-size: 0.875rem;
-  color: #fff;
-  -webkit-transition: opacity 150ms ease-in-out;
-  transition: opacity 150ms ease-in-out;
-}
-
-.header__cta:hover {
-  opacity: .75;
-}
-
 .hero__image {
   position: relative;
   background-image: url(/images/bg-intro-mobile.svg);
@@ -289,5 +292,22 @@ button, .button {
   background-size: 90%;
   background-repeat: no-repeat;
   background-position: center bottom;
+}
+
+.hero__text {
+  text-align: center;
+}
+
+.hero__text h1 {
+  font-weight: 300;
+  color: #2d314d;
+  font-size: 2.31rem;
+  line-height: 1.15;
+  margin-bottom: 1.5rem;
+}
+
+.hero__text p {
+  margin-bottom: 2.25rem;
+  line-height: 1.5;
 }
 /*# sourceMappingURL=style.css.map */
