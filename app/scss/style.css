@@ -106,8 +106,10 @@ a, a:visited, a:hover {
 }
 
 .container {
-  padding-left: 1.5rem;
+  padding-top: 2.25rem;
   padding-right: 1.5rem;
+  padding-bottom: 2.25rem;
+  padding-left: 1.5rem;
 }
 
 .flex {
@@ -143,6 +145,14 @@ button, .button {
   border: 0;
   color: #fff;
   font-weight: 400;
+  display: inline-block;
+  font-size: 0.875rem;
+  -webkit-transition: opacity 150ms ease-in-out;
+  transition: opacity 150ms ease-in-out;
+}
+
+button:hover, .button:hover {
+  opacity: .75;
 }
 
 @media (max-width: 63.9375em) {
@@ -262,17 +272,6 @@ button, .button {
 
 .header__links a:hover::before {
   opacity: 1;
-}
-
-.header__cta {
-  font-size: 0.875rem;
-  color: #fff;
-  -webkit-transition: opacity 150ms ease-in-out;
-  transition: opacity 150ms ease-in-out;
-}
-
-.header__cta:hover {
-  opacity: .75;
 }
 
 .hero__image {
