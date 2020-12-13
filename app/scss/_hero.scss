@@ -21,7 +21,13 @@
     }
 
     &__text {
-
+        text-align: center;
+        h1 {
+            font-weight: 300;
+            color: $darkBlue;
+            font-size: 2.31rem;
+            line-height: 1.15;
+        }
     }
 }
 
