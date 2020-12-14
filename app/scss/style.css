@@ -276,6 +276,7 @@ button:hover, .button:hover {
 
 @media (min-width: 64em) {
   .hero {
+    min-height: 40.9375rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
