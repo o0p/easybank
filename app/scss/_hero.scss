@@ -1,8 +1,8 @@
 .hero {
     @include breakpoint-up(large){
-        min-height: 40.9375rem;
         display: flex;
-
+        align-items: center; 
+ 
     }
 
 
@@ -17,6 +17,9 @@
         @include breakpoint-up(large){
             flex: 1;
             order: 2;
+            height: 100%;
+            min-height: 41rem;
+
         }
 
 
@@ -34,6 +37,12 @@
 
     &__text {
         text-align: center;
+        @include breakpoint-up(large){
+            flex: 1;
+            order: 1 ;
+        }
+
+        
         h1 {
             font-weight: 300;
             color: $darkBlue;
