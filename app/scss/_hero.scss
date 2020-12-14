@@ -1,4 +1,10 @@
 .hero {
+    @include breakpoint-up(large){
+        display: flex;
+
+    }
+
+
     &__image {
         position: relative;
         background-image: url(/images/bg-intro-mobile.svg);
@@ -6,6 +12,11 @@
         background-repeat: no-repeat;
         background-position: center center;
         min-height: 17.5rem;
+
+        @include breakpoint-up(large){
+            flex: 1;
+            order: 2;
+        }
 
 
         &::before {
