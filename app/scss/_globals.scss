@@ -16,6 +16,9 @@ body {
     color: $grayishBlue;
     font-family: 'Public Sans', sans-serif;
 
+    @include breakpoint-up(large) {
+        font-size: $font-med;
+    }
     &.noscroll {
         overflow: hidden;
     }

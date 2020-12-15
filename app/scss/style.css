@@ -93,6 +93,12 @@ body {
   font-family: 'Public Sans', sans-serif;
 }
 
+@media (min-width: 64em) {
+  body {
+    font-size: 1.125rem;
+  }
+}
+
 body.noscroll {
   overflow: hidden;
 }
