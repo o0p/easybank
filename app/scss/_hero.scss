@@ -43,6 +43,7 @@
         @include breakpoint-up(large){
             flex: 2;
             order: 1 ;
+            text-align: left;
         }
 
         
