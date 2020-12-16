@@ -40,11 +40,18 @@
             content: '';
             position: absolute;
             height: 100%;
-            width: 150%;
+            width: 100%;
             background-image: url(/images/bg-intro-desktop.svg);
             background-size: 90%;
             background-repeat: no-repeat;
             background-position: center bottom;
+
+            @include breakpoint-up(large){
+                width: 150%;
+                background-size: 122%;
+                background-repeat: no-repeat;
+                background-position: 0% 83%;
+            }
         }
     }
 
