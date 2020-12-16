@@ -353,17 +353,6 @@ button:hover, .button:hover {
   }
 }
 
-.hero__image::after {
-  content: '';
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-image: url(/images/image-mockups.png);
-  background-size: 90%;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-}
-
 .hero__image::before {
   content: '';
   position: absolute;
@@ -381,6 +370,29 @@ button:hover, .button:hover {
     background-size: 122%;
     background-repeat: no-repeat;
     background-position: 0% 83%;
+  }
+}
+
+.hero__image::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url(/images/image-mockups.png);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+@media (min-width: 64em) {
+  .hero__image::after {
+    width: 120%;
+    height: 122%;
+    background-image: url(/images/image-mockups.png);
+    background-size: 94%;
+    background-repeat: no-repeat;
+    background-position: center 150%;
+    left: 22%;
   }
 }
 
