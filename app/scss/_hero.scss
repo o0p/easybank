@@ -1,10 +1,11 @@
 .hero {
+    background-color: $veryLightGray;
+
     @include breakpoint-up(large){
         display: flex;
         align-items: center; 
  
     }
-
 
     &__image {
         position: relative;
@@ -21,10 +22,7 @@
             min-height: 41rem;
             background-image: url(/images/bg-intro-desktop.svg);
             background-position: left center;
-
-
         }
-
 
         &::before {
             content: '';
@@ -45,7 +43,6 @@
             order: 1 ;
             text-align: left;
         }
-
         
         h1 {
             font-weight: 300;
