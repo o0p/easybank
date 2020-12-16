@@ -388,9 +388,7 @@ button:hover, .button:hover {
   .hero__image::after {
     width: 120%;
     height: 122%;
-    background-image: url(/images/image-mockups.png);
     background-size: 94%;
-    background-repeat: no-repeat;
     background-position: center 150%;
     left: 22%;
   }
