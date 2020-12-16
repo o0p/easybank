@@ -47,8 +47,9 @@
         &::after {
             @include breakpoint-up(medium){
                 background-size: 52%;
+                background-position: center 60%;
             }
-            
+
             content: '';
             position: absolute;
             height: 100%;

@@ -387,6 +387,7 @@ button:hover, .button:hover {
 @media (min-width: 40em) {
   .hero__image::after {
     background-size: 52%;
+    background-position: center 60%;
   }
 }
 
