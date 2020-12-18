@@ -2,13 +2,20 @@
 
     &__grid {
 
-        @include breakpoint-up(large){
+        @include breakpoint-up(medium){
             display: flex;
+            flex-wrap: wrap;
         }
+
     }
 
     &__item {
+        border: 1px magenta solid;
+        padding: .9375rem;
 
+        @include breakpoint-up(medium){
+            flex: 0 0 50%;        
+        }
         @include breakpoint-up(large){
             flex: 1;
         }
