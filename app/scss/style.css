@@ -105,14 +105,14 @@ body.noscroll {
 
 h1, h2, h3 {
   margin-top: 0;
+  font-weight: 300;
+  line-height: 1.15;
+  color: #2d314d;
 }
 
 h1 {
-  font-weight: 300;
-  color: #2d314d;
-  font-size: 2.31rem;
-  line-height: 1.15;
   margin-bottom: 1.5rem;
+  font-size: 2.31rem;
 }
 
 @media (min-width: 64em) {
