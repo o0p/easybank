@@ -105,6 +105,20 @@ body.noscroll {
 
 h1, h2, h3 {
   margin-top: 0;
+  font-weight: 300;
+  line-height: 1.15;
+  color: #2d314d;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  font-size: 2.31rem;
+}
+
+@media (min-width: 64em) {
+  h1 {
+    font-size: 3.25rem;
+  }
 }
 
 h2 {
@@ -426,20 +440,6 @@ button:hover, .button:hover {
         -ms-flex-order: 1;
             order: 1;
     text-align: left;
-  }
-}
-
-.hero__text h1 {
-  font-weight: 300;
-  color: #2d314d;
-  font-size: 2.31rem;
-  line-height: 1.15;
-  margin-bottom: 1.5rem;
-}
-
-@media (min-width: 64em) {
-  .hero__text h1 {
-    font-size: 3.25rem;
   }
 }
 
