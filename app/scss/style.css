@@ -450,7 +450,7 @@ button:hover, .button:hover {
 
 @media (min-width: 64em) {
   .feature__intro {
-    width: 55%;
+    width: 60%;
   }
 }
 
