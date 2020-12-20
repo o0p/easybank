@@ -528,13 +528,13 @@ button:hover, .button:hover {
   line-height: 1.15;
   margin-top: 0;
   color: #2d314d;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 64em) {
   .feature__title {
     font-size: 1.5rem;
-    margin-bottom: 2.125rem;
+    margin-bottom: 1.5rem;
   }
 }
 
