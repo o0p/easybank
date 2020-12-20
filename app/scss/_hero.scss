@@ -43,7 +43,7 @@
                 background-position: 0% 83%;
             }
         }
-// test2
+
         &::after {
             @include breakpoint-up(medium){
                 background-size: 52%;
@@ -75,11 +75,6 @@
             flex: 2;
             order: 1 ;
             text-align: left;
-        }
-        
-        p {
-            margin-bottom: 2.25rem;
-            line-height: 1.5;
         }
     }
 }
