@@ -490,6 +490,12 @@ button:hover, .button:hover {
 }
 
 .feature__icon {
-  margin-bottom: 2.75rem;
+  margin-bottom: 1.875rem;
+}
+
+@media (min-width: 64em) {
+  .feature__icon {
+    margin-bottom: 2.75rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
