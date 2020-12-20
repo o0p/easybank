@@ -1,9 +1,10 @@
 .feature {
 
     &__intro {
+        margin-bottom: 3.75rem;
+
         @include breakpoint-up(large) {
             width: 60%;
-            margin-bottom: 3.75rem;
         }
     }
     &__grid {
@@ -29,7 +30,7 @@
     }
 
     &__icon {
-
+        margin-bottom: 2.75rem;
     }
 
     &__title {

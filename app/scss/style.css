@@ -448,10 +448,13 @@ button:hover, .button:hover {
   }
 }
 
+.feature__intro {
+  margin-bottom: 3.75rem;
+}
+
 @media (min-width: 64em) {
   .feature__intro {
     width: 60%;
-    margin-bottom: 3.75rem;
   }
 }
 
@@ -484,5 +487,9 @@ button:hover, .button:hover {
         -ms-flex: 1;
             flex: 1;
   }
+}
+
+.feature__icon {
+  margin-bottom: 2.75rem;
 }
 /*# sourceMappingURL=style.css.map */
