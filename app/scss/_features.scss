@@ -1,5 +1,10 @@
 .feature {
 
+    &__intro {
+        @include breakpoint-up(large) {
+            width: 55%;
+        }
+    }
     &__grid {
 
         @include breakpoint-up(medium){
