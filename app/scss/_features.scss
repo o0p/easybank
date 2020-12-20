@@ -3,6 +3,7 @@
     &__intro {
         @include breakpoint-up(large) {
             width: 60%;
+            margin-bottom: 3.75rem;
         }
     }
     &__grid {
