@@ -25,6 +25,8 @@
     &__item {
         border-radius: 5px;
         overflow: hidden;
+        box-shadow: 0rem 0.1875rem 0.75rem rgba($color: rgb(0, 0, 0), $alpha: 0.15);
+        // box-shadow: 0rem 0.1875rem 0.75rem rgba(0,0,0,0.15);
     }
     &__image {
         height: 12.5rem;
