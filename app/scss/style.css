@@ -598,4 +598,16 @@ button:hover, .button:hover {
     padding: 1.875rem 1.5625rem;
   }
 }
+
+.article__author {
+  font-size: 0.625rem;
+}
+
+.article__title {
+  font-size: 1.0625rem;
+}
+
+.article__description {
+  font-size: 0.8125rem;
+}
 /*# sourceMappingURL=style.css.map */
