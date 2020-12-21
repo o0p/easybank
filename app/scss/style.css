@@ -582,6 +582,13 @@ button:hover, .button:hover {
   -webkit-box-shadow: 0rem 0.1875rem 0.75rem rgba(0, 0, 0, 0.15);
           box-shadow: 0rem 0.1875rem 0.75rem rgba(0, 0, 0, 0.15);
   background-color: #fff;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+.article__item:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 .article__image {
