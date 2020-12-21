@@ -602,14 +602,14 @@ button:hover, .button:hover {
 
 .article__author {
   font-size: 0.625rem;
-  margin-bottom: 1rem;
+  margin-bottom: .75rem;
 }
 
 .article__title {
   font-size: 1.0625rem;
   line-height: 1.2;
   color: #2d314d;
-  margin-bottom: 0.86rem;
+  margin-bottom: 0.5rem;
 }
 
 .article__description {
