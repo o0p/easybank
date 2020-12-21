@@ -579,6 +579,16 @@ button:hover, .button:hover {
 .article__item {
   border-radius: 5px;
   overflow: hidden;
+  -webkit-box-shadow: 0rem 0.1875rem 0.75rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0rem 0.1875rem 0.75rem rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+.article__item:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 .article__image {
@@ -590,12 +600,28 @@ button:hover, .button:hover {
 
 .article__text {
   padding: 1.875rem 1.875rem 2.5rem 1.875rem;
-  background-color: #fff;
+  color: #9698a6;
 }
 
 @media (min-width: 40em) {
   .article__text {
     padding: 1.875rem 1.5625rem;
   }
+}
+
+.article__author {
+  font-size: 0.625rem;
+  margin-bottom: .75rem;
+}
+
+.article__title {
+  font-size: 1.0625rem;
+  line-height: 1.2;
+  color: #2d314d;
+  margin-bottom: 0.5rem;
+}
+
+.article__description {
+  font-size: 0.8125rem;
 }
 /*# sourceMappingURL=style.css.map */
