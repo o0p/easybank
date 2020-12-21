@@ -11,6 +11,7 @@
     &__grid {
         display: grid;
         grid-template-columns: 1fr;
+        gap: 1.25rem;
 
         @include breakpoint-up(medium){
             grid-template-columns: repeat(2, 1fr);
@@ -25,7 +26,10 @@
 
     }
     &__image {
-
+        height: 12.5rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
     }
     &__text {
 
