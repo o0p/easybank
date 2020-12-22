@@ -629,9 +629,15 @@ button:hover, .button:hover {
 .footer {
   background-color: #2d314d;
   color: #fff;
+  padding: 2.5rem;
+  text-align: center;
 }
 
 .footer a {
   color: #fff;
+}
+
+.footer__logo {
+  padding: 1.875rem;
 }
 /*# sourceMappingURL=style.css.map */
