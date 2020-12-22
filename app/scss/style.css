@@ -630,4 +630,8 @@ button:hover, .button:hover {
   background-color: #2d314d;
   color: #fff;
 }
+
+.footer a {
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */
