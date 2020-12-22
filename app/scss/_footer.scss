@@ -14,10 +14,20 @@
         margin-bottom: 1.875rem;
     }
     &__social {
+
         margin-bottom: 1.875rem;
+
+        a:not(:last-child) {
+            // display: inline-block;
+            margin-right: 1rem;
+        }
         
     }
+    
     &__links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
         &.col1 {
             
@@ -25,13 +35,17 @@
         &.col2 {
             margin-bottom: 1.875rem;   
         }
+        a {
+            line-height: 2.25;
+        }
     }
+    
     &__cta {
 
         a.button {
             margin-bottom: 1.875rem;
         }
-
+    
     }
 
     &__copyright {
