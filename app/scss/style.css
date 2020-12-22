@@ -638,7 +638,7 @@ button:hover, .button:hover {
 }
 
 .footer__logo {
-  padding: 1.875rem;
+  margin-bottom: 1.875rem;
 }
 
 .footer__social {
