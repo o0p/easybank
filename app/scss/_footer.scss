@@ -4,6 +4,12 @@
     padding: 2.5rem;
     text-align: center;
 
+    @include breakpoint-up(large) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) 2fr;
+        grid-template-rows:repeat(2, 1fr) ;
+    }
+
     a {
         color: #fff;
 
