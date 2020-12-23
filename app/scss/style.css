@@ -718,6 +718,9 @@ button:hover, .button:hover {
 @media (min-width: 64em) {
   .footer__cta {
     grid-area: cta;
+    text-align: right;
+    -ms-grid-column-align: end;
+        justify-self: end;
   }
 }
 
