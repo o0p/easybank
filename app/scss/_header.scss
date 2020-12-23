@@ -1,6 +1,5 @@
 .header {
     //hamburger open styles
-
     &.open {
         .header__toggle {
             > span:first-child {
@@ -25,7 +24,6 @@
         bottom: 0px;
         left: 0px;
         background-image: linear-gradient($darkBlue, transparent);
-
     }
     
     nav {
