@@ -642,6 +642,7 @@ button:hover, .button:hover {
     -ms-grid-rows: (1fr)[2];
         grid-template-rows: repeat(2, 1fr);
         grid-template-areas: 'logo links1 links2 cta' 'social links1 links2 cta';
+    justify-items: start;
   }
 }
 
@@ -681,6 +682,9 @@ button:hover, .button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media (min-width: 64em) {
