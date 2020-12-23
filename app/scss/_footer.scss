@@ -21,17 +21,23 @@
     
     &__logo {
         // display: inline-block;
-        margin-bottom: 1.875rem;
         
+        @include breakpoint-down(medium) {
+            margin-bottom: 1.875rem;
+        }
+
         @include breakpoint-up(large) {
             grid-area: logo;
         }
     }
     &__social {
-        margin-bottom: 1.875rem;
-
+        @include breakpoint-down(medium) {
+            margin-bottom: 1.875rem;
+        }
+        
         @include breakpoint-up(large) {
             grid-area: social;
+            align-self: end;
         }
 
         a:not(:last-child) {
@@ -58,8 +64,10 @@
             
         }
         &.col2 {
-            margin-bottom: 1.875rem;   
-
+            @include breakpoint-down(medium) {
+                margin-bottom: 1.875rem;
+            }
+            
             @include breakpoint-up(large) {
                 grid-area: links2;
             }
@@ -78,7 +86,9 @@
         }
 
         a.button {
-            margin-bottom: 1.875rem;
+            @include breakpoint-down(medium) {
+                margin-bottom: 1.875rem;
+            }
         }    
     }
 
