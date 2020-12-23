@@ -634,7 +634,7 @@ button:hover, .button:hover {
 }
 
 @media (min-width: 64em) {
-  .footer {
+  .footer .container {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (1fr)[3] 2fr;
@@ -648,6 +648,10 @@ button:hover, .button:hover {
 
 .footer a {
   color: #fff;
+}
+
+.footer__logo {
+  display: inline-block;
 }
 
 @media (max-width: 63.9375em) {
@@ -675,6 +679,11 @@ button:hover, .button:hover {
         -ms-grid-row-align: end;
         align-self: end;
   }
+}
+
+.footer__social a {
+  display: inline-block;
+  height: 1.25rem;
 }
 
 .footer__social a:not(:last-child) {
@@ -724,10 +733,8 @@ button:hover, .button:hover {
   }
 }
 
-@media (max-width: 63.9375em) {
-  .footer__links a {
-    line-height: 2.25;
-  }
+.footer__links a {
+  line-height: 2.25;
 }
 
 @media (min-width: 64em) {
@@ -745,6 +752,11 @@ button:hover, .button:hover {
   }
 }
 
+.footer__copyright {
+  font-size: 0.8125rem;
+  color: #9698a6;
+}
+
 @media (min-width: 64em) {
   .footer__copyright {
     grid-area: copyright;
@@ -753,7 +765,6 @@ button:hover, .button:hover {
         align-self: end;
     -ms-grid-column-align: end;
         justify-self: end;
-    font-size: 0.9375rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -4,23 +4,26 @@
     padding: 2.5rem;
     text-align: center;
 
-    @include breakpoint-up(large) {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr) 2fr;
-        grid-template-rows: 1fr auto;
-        grid-template-areas: 
-            'logo links1 links2 cta'
-            'social links1 links2 copyright';
-        justify-items: start;
+    
+    .container {
+        
+        @include breakpoint-up(large) {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr) 2fr;
+            grid-template-rows: 1fr auto;
+            grid-template-areas: 
+                'logo links1 links2 cta'
+                'social links1 links2 copyright';
+            justify-items: start;
+        }
     }
 
     a {
         color: #fff;
-
     }
     
     &__logo {
-        // display: inline-block;
+        display: inline-block;
         
         @include breakpoint-down(medium) {
             margin-bottom: 1.875rem;
@@ -40,9 +43,13 @@
             grid-area: social;
             align-self: end;
         }
+        a {
+            display: inline-block;
+            height: 1.25rem;
 
+
+        }
         a:not(:last-child) {
-            // display: inline-block;
             margin-right: 1rem;
         }        
     }
@@ -77,9 +84,7 @@
             }
         }
         a {
-            @include breakpoint-down(medium) {
-                line-height: 2.25;
-            }            
+            line-height: 2.25;       
         }
     }
     
@@ -99,13 +104,14 @@
     }
 
     &__copyright {
-        
+        font-size: 0.8125rem;
+        color: $grayishBlue;
+     
+
         @include breakpoint-up(large) {            
             grid-area: copyright;
             align-self: end;
             justify-self: end;
-            font-size: 0.9375rem;
-
         }
     }
 }
